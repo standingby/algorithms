@@ -2,23 +2,26 @@ package leetcode.binarysearch;
 
 import lombok.experimental.UtilityClass;
 
+/**
+ * @see <a href="https://leetcode.com/problems/binary-search/description/"</a>
+ * */
 @UtilityClass
 public class BinarySearch704 {
 
   public int search(int[] nums, int target) {
-    int l = 0;
-    int h = nums.length - 1;
+    int left = 0;
+    int right = nums.length - 1;
     int index = -1;
 
-    while (l <= h) {
-      int m = l + ((h - l) / 2);
+    while (left <= right) {
+      int mid = left + ((right - left) / 2);
 
-      if (nums[m] < target) {
-        l = m + 1;
-      } else if (nums[m] > target) {
-        h = m - 1;
-      } else if (nums[m] == target) {
-        index = m;
+      if (nums[mid] < target) {
+        left = mid + 1;
+      } else if (nums[mid] > target) {
+        right = mid - 1;
+      } else if (nums[mid] == target) {
+        index = mid;
         break;
       }
     }

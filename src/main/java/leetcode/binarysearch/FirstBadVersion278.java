@@ -2,6 +2,9 @@ package leetcode.binarysearch;
 
 import lombok.experimental.UtilityClass;
 
+/**
+ * @see <a href="https://leetcode.com/problems/first-bad-version/description/"</a>
+ * */
 @UtilityClass
 public class FirstBadVersion278 {
 
