@@ -19,7 +19,6 @@ public class ExcelSheets168Test {
     Assertions.assertEquals("AAR", result);
   }
 
-
   @Test
   public void correct1() {
     int num = 1;
