@@ -4,7 +4,7 @@ import lombok.experimental.UtilityClass;
 
 /**
  * @see <a href="https://leetcode.com/problems/rotate-array/description/"</a>
- * */
+ */
 @UtilityClass
 public class RotateArray189 {
 

@@ -10,7 +10,7 @@ public class BinarySearch704Test {
     int[] nums = new int[]{-1, 0, 3, 5, 9, 12};
     int target = 9;
     int result = BinarySearch704.search(nums, target);
-    Assertions.assertEquals( 4, result);
+    Assertions.assertEquals(4, result);
   }
 
 }

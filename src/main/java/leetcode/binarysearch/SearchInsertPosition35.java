@@ -4,7 +4,7 @@ import lombok.experimental.UtilityClass;
 
 /**
  * @see <a href="https://leetcode.com/problems/search-insert-position/description/"</a>
- * */
+ */
 @UtilityClass
 public class SearchInsertPosition35 {
 

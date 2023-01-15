@@ -4,7 +4,7 @@ import lombok.experimental.UtilityClass;
 
 /**
  * @see <a href="https://leetcode.com/problems/binary-search/description/"</a>
- * */
+ */
 @UtilityClass
 public class BinarySearch704 {
 

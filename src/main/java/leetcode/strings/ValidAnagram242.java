@@ -5,7 +5,7 @@ import lombok.experimental.UtilityClass;
 
 /**
  * @see <a href="https://leetcode.com/problems/valid-anagram/description/"</a>
- * */
+ */
 @UtilityClass
 public class ValidAnagram242 {
 

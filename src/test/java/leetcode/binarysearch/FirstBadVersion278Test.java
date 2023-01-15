@@ -10,7 +10,7 @@ public class FirstBadVersion278Test {
     int n = 5;
     int bad = 4;
     int result = FirstBadVersion278.firstBadVersion(n, bad);
-    Assertions.assertEquals( 4, result);
+    Assertions.assertEquals(4, result);
   }
 
 }
