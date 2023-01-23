@@ -7,7 +7,7 @@ import java.util.Set;
 import lombok.experimental.UtilityClass;
 
 /**
- * @see <a href="https://leetcode.com/problems/contains-duplicate/description//"</a>
+ * @see <a href="https://leetcode.com/problems/contains-duplicate/description/"</a>
  */
 @UtilityClass
 public class ContainsDuplicate217 {
